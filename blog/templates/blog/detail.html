@@ -1,0 +1,22 @@
+{% extends "portfolio/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+    <br>
+    <br>
+
+<h2 class="mb-5">
+    <a href="{% url 'blog:posts' %}">Blog</a> /
+    {{ blog.title }}
+</h2>
+
+<h5 class="text-muted">{{ blog.date|date:'F jS Y' }}</h5>
+
+<h1 id="blogdetailtitle">{{ blog.title }}</h1>
+
+
+{{ blog.description|safe }}
+
+{% endblock %}
