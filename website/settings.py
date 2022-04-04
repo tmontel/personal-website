@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-_s23ak4q5**$6rlxbd7j(kv6#%dv0tsts&s*e44_m)3hji)))_
 # SECURITY WARNING: don't run` with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['tmontel.pythonanywhere.com']
+ALLOWED_HOSTS = ['www.thibaultmontel.info']
 
 
 # Application definition
