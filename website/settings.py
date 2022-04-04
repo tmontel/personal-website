@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-_s23ak4q5**$6rlxbd7j(kv6#%dv0tsts&s*e44_m)3hji)))_'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don't run` with debug turned on in production!
 DEBUG = False
 
 ALLOWED_HOSTS = ['tmontel.pythonanywhere.com']
@@ -133,4 +133,7 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-##28A1FB
+try:
+    from .local_settings import *
+except ImportError:
+    print('Looks like no local settings!')
