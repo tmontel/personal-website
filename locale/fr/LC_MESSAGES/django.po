@@ -542,8 +542,8 @@ msgid "Managing a remote application via Terminal Server"
 msgstr "Gestion d'une application distante via Terminal Server"
 
 #: portfolio/templates/portfolio/base.html:50
-msgid "I'm a passionate <span>backend developer</span> from Montreal"
-msgstr "<span>Développeur backend</span> passionné vivant à Montréal"
+msgid "I'm a passionate <span>backend developer</span> from Saint-Bruno de Montarville"
+msgstr "<span>Développeur backend</span> passionné de Saint-Bruno de Montarville"
 
 #: portfolio/templates/portfolio/base.html:57
 msgid "Home"
