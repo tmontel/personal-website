@@ -5,6 +5,9 @@ from django.core.mail import send_mail
 from .form import NameForm
 
 
+def success(request):
+    return render(request, 'contact/success.html')
+
 def contact(request):
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
@@ -15,10 +18,10 @@ def contact(request):
                 form.data['name'] + ' | ' + form.data['subject'],
                 form.data['message'],
                 form.data['email'],
-                ['thibault.montel@gmail.com.com'],
+                ['thibault.montel@gmail.com'],
                 fail_silently=False,
             )
-            return HttpResponseRedirect('/thanks/')
+            return HttpResponseRedirect('success')
 
         # if a GET (or any other method) we'll create a blank form
     else:

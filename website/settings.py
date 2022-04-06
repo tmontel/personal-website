@@ -46,6 +46,12 @@ INSTALLED_APPS = [
     'contact',
 ]
 
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'thibault.montel@gmail.com'
+EMAIL_HOST_PASSWORD = 'xvkukssicthmlqlb'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',

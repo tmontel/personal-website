@@ -36,6 +36,7 @@ urlpatterns += i18n_patterns(
     path('cv/', cv_views.cv, name='cv'),
     path('about/', cv_views.about, name='about'),
     path('contact/', contact_views.contact, name='contact'),
+    path('contact/success', contact_views.success, name='success'),
     path('blog/', include('blog.urls')),
     path('tinymce/', include('tinymce.urls')),
     path('i18n/', include('django.conf.urls.i18n')),
