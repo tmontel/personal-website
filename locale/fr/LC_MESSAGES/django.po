@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-05 20:14-0400\n"
+"POT-Creation-Date: 2022-04-05 23:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,7 +134,7 @@ msgstr "Baccalauréat"
 msgid "Email"
 msgstr "Courriel"
 
-#: cv/templates/cv/about.html:42
+#: cv/templates/cv/about.html:42 cv/templates/cv/cv.html:150
 msgid "Freelance"
 msgstr "Pigiste"
 
@@ -177,15 +177,15 @@ msgstr ""
 
 #: cv/templates/cv/about.html:67
 msgid "Years of Seniority"
-msgstr ""
+msgstr "Années d'expérience"
 
 #: cv/templates/cv/about.html:75
 msgid "Python Certifications"
-msgstr ""
+msgstr "Certifications Python"
 
 #: cv/templates/cv/about.html:83
 msgid "Years SAQ Team leader"
-msgstr ""
+msgstr "Années chef d'équipe sur SAQ"
 
 #: cv/templates/cv/about.html:103
 msgid "Skills"
@@ -234,6 +234,18 @@ msgid ""
 "Very autonomous and always positive, it's very pleasant to work with him!"
 msgstr ""
 
+#: cv/templates/cv/cv.html:13 portfolio/templates/portfolio/base.html:59
+msgid "Resume"
+msgstr "CV"
+
+#: cv/templates/cv/cv.html:14
+msgid "Check My Resume"
+msgstr "Mon parcours"
+
+#: cv/templates/cv/cv.html:19
+msgid "Sumary"
+msgstr "Sommaire"
+
 #: cv/templates/cv/cv.html:22
 msgid ""
 "Innovative, time-conscious back-end developer with over 15 years of "
@@ -244,6 +256,291 @@ msgstr ""
 "d'expérience dans la conception et le développement de logiciels centrés sur "
 "l'utilisateur, du concept initial au livrable final et soigné."
 
+#: cv/templates/cv/cv.html:31
+msgid "Certifications"
+msgstr "Certifications"
+
+#: cv/templates/cv/cv.html:42
+msgid "Education"
+msgstr ""
+
+#: cv/templates/cv/cv.html:44
+msgid "IT Specialist"
+msgstr "Spécialiste en Technologies de l'Information"
+
+#: cv/templates/cv/cv.html:49
+msgid ""
+"Bachelor's degree in Computer Systems and Software, Software Development"
+msgstr "Licence Systèmes Informatiques et Logiciels, Développement logiciel"
+
+#: cv/templates/cv/cv.html:51 cv/templates/cv/cv.html:56
+msgid "Auvergne University"
+msgstr "Université d'Auvergne"
+
+#: cv/templates/cv/cv.html:54
+msgid "B.T.S. IRIS, Software Development and Networks, Software Development"
+msgstr "B.T.S. IRIS, Développement Logiciel et Réseaux, Développement Logiciel"
+
+#: cv/templates/cv/cv.html:60
+msgid "Professional Experience"
+msgstr "Expérience professionnelle"
+
+#: cv/templates/cv/cv.html:62 cv/templates/cv/cv.html:81
+msgid "Lead Backend Developer"
+msgstr "Développeur Backend Principal"
+
+#: cv/templates/cv/cv.html:63
+msgid "Now"
+msgstr "Maintenant"
+
+#: cv/templates/cv/cv.html:64 cv/templates/cv/cv.html:83
+#: cv/templates/cv/cv.html:102 cv/templates/cv/cv.html:118
+#: cv/templates/cv/cv.html:135 cv/templates/cv/cv.html:150
+#: cv/templates/cv/cv.html:162
+msgid "Montreal"
+msgstr "Montréal"
+
+#: cv/templates/cv/cv.html:67
+msgid ""
+"Architecture, implementation, maintenance and evolution of the SAQ.com site"
+msgstr "Architecture, mise en place, maintenance et évolutions du site SAQ.com"
+
+#: cv/templates/cv/cv.html:68
+msgid "System Integration, Rest API, JWT Token"
+msgstr "Intégration système, API Rest, jeton JWT"
+
+#: cv/templates/cv/cv.html:69
+msgid "Middleware, Messaging queue"
+msgstr ""
+
+#: cv/templates/cv/cv.html:70
+msgid "Rabbit MQ, Artemis Active MQ- Azure Storage"
+msgstr ""
+
+#: cv/templates/cv/cv.html:71
+msgid "Payment system management, Fraud detection"
+msgstr "Gestion de système de paiement, Détection de fraude"
+
+#: cv/templates/cv/cv.html:72
+msgid "Fastly, Varnish, VCL Snippet and Redis"
+msgstr "Fastly, Varnish, VCL Snippet et Redis"
+
+#: cv/templates/cv/cv.html:73
+msgid "MySQL"
+msgstr ""
+
+#: cv/templates/cv/cv.html:74
+msgid "Elastic search, Logstash"
+msgstr ""
+
+#: cv/templates/cv/cv.html:75
+msgid "SAML Authentication"
+msgstr "Authentification SAML"
+
+#: cv/templates/cv/cv.html:76
+msgid "Unit testing"
+msgstr "Tests unitaires"
+
+#: cv/templates/cv/cv.html:86
+msgid "Development of Magento 1 and 2 e-commerce sites"
+msgstr "Développement de sites e-commerce Magento 1 et 2"
+
+#: cv/templates/cv/cv.html:87
+msgid "Design, development and maintenance of e-commerce platforms"
+msgstr "Conception, développement et maintient des plateformes e-commerce"
+
+#: cv/templates/cv/cv.html:88 cv/templates/cv/cv.html:122
+msgid "Functional analysis"
+msgstr "Analyse Fonctionnelle"
+
+#: cv/templates/cv/cv.html:89 cv/templates/cv/cv.html:123
+msgid "Database design"
+msgstr "Conception de bases de données"
+
+#: cv/templates/cv/cv.html:90 cv/templates/cv/cv.html:124
+msgid "User technical support"
+msgstr "Support technique utilisateurs"
+
+#: cv/templates/cv/cv.html:91 cv/templates/cv/cv.html:125
+#: cv/templates/cv/cv.html:182
+msgid "Documentation writing"
+msgstr "Rédaction de documentation"
+
+#: cv/templates/cv/cv.html:92
+msgid "Customizations / Evolutions"
+msgstr "Personnalisations / Évolutions"
+
+#: cv/templates/cv/cv.html:93
+msgid "System integrations"
+msgstr "Intégration système"
+
+#: cv/templates/cv/cv.html:94
+msgid "Monitoring"
+msgstr ""
+
+#: cv/templates/cv/cv.html:95
+msgid "Performance Optimization - Security Management"
+msgstr "Optimisation des performances- Gestion de la sécurité"
+
+#: cv/templates/cv/cv.html:100
+msgid "Digital Marketing Developer"
+msgstr "Développeur Marketing Numérique"
+
+#: cv/templates/cv/cv.html:105
+msgid "Creating Google Docs Scripts"
+msgstr "Création de scripts Google documents"
+
+#: cv/templates/cv/cv.html:106
+msgid "Creating Adwords Scripts"
+msgstr "Création de scripts Adwords"
+
+#: cv/templates/cv/cv.html:107
+msgid "DoubleClick Studio Dynamic Banners"
+msgstr "Bannières dynamiques DoubleClick Studio"
+
+#: cv/templates/cv/cv.html:108
+msgid "Google Analytics measurement plan and implementation guide"
+msgstr "Plan de mesure et guide d'implantation Google Analytics"
+
+#: cv/templates/cv/cv.html:109
+msgid "Google Tag Manager and Google Analytics setup"
+msgstr "Configuration Google Tag Manager et Google Analytics"
+
+#: cv/templates/cv/cv.html:110
+msgid "Implementation of internal tools"
+msgstr "Mise en place d'outils internes"
+
+#: cv/templates/cv/cv.html:111
+msgid "Monitoring and evolution of the company's ERP"
+msgstr "Suivi et évolutions de l'ERP de la compagnie"
+
+#: cv/templates/cv/cv.html:116 cv/templates/cv/cv.html:133
+#: cv/templates/cv/cv.html:148 cv/templates/cv/cv.html:170
+msgid "Backend Developer"
+msgstr "Développeur Backend"
+
+#: cv/templates/cv/cv.html:121
+#, fuzzy
+#| msgid "Design, development and maintenance of e-commerce platforms"
+msgid ""
+"Design, development and maintenance of an ERP with Zend Framework / Doctrine"
+msgstr "Conception, développement et maintient des plateformes e-commerce"
+
+#: cv/templates/cv/cv.html:126
+msgid "Google Analytics"
+msgstr ""
+
+#: cv/templates/cv/cv.html:127
+msgid "Joomla"
+msgstr ""
+
+#: cv/templates/cv/cv.html:128
+msgid "Magento"
+msgstr ""
+
+#: cv/templates/cv/cv.html:138
+msgid "Implementation of a personalized newsletter program for Bestbuy"
+msgstr "Mise en place d'un programme de newletters personnalisées pour Bestbuy"
+
+#: cv/templates/cv/cv.html:139
+msgid "Development of various contests for Bestbuy and Les Ailes de la Mode"
+msgstr "Développement de divers concours pour Bestbuy et Les ailes de la mode"
+
+#: cv/templates/cv/cv.html:140
+msgid ""
+"Development of Wordpress plugins for the websites of the Opéra de Montreal, "
+"the Noel au Printemps Foundation and Sonotechnique"
+msgstr "Développement de plugins Wordpress pour les sites de l'Opéra de Montreal, de la fondation Noel au printemps et de Sonotechnique"
+
+#: cv/templates/cv/cv.html:141
+msgid ""
+"Development of fan pages as well as several Facebook games for Educ'Alcool / "
+"Pocheville"
+msgstr "Développement de fan pages ainsi que de plusieurs jeux Facebook pourEduc'Alcool / Pocheville"
+
+#: cv/templates/cv/cv.html:142
+msgid "Works on the Google map API"
+msgstr "Travaux sur l'API de Google map"
+
+#: cv/templates/cv/cv.html:143
+msgid "Work on an online registration and tracking system for Telus rep events"
+msgstr "Travaux sur un système d'inscription et de suivi en ligne pour des événements des représentants Telus"
+
+#: cv/templates/cv/cv.html:153
+msgid "Development of several streaming sites"
+msgstr "Développement de plusieurs sites de diffusion streaming"
+
+#: cv/templates/cv/cv.html:154
+msgid "Wordpress multi-user blog"
+msgstr "Blog multi-utilisateurs Wordpress"
+
+#: cv/templates/cv/cv.html:155
+msgid "Linux system administration"
+msgstr "Administration système Linux"
+
+#: cv/templates/cv/cv.html:160
+msgid "Flash Developer"
+msgstr "Développeur Flash"
+
+#: cv/templates/cv/cv.html:165
+msgid "AS1 / AS2 flash animation development"
+msgstr "Développement animations flash AS1 / AS2"
+
+#: cv/templates/cv/cv.html:175
+msgid ""
+"Development and securing of online payment methods in PHP 5 (Credit card)"
+msgstr "Développement et sécurisation de moyens de paiement en ligne en PHP 5 ( Carte bancaire )"
+
+#: cv/templates/cv/cv.html:176
+msgid ""
+"Development and securing of online payment methods in JavaJ2EE / Webservices "
+"(Internet+)"
+msgstr "Développement et sécurisation de moyens de paiement en ligne en JavaJ2EE / Webservices ( Internet+)"
+
+#: cv/templates/cv/cv.html:177
+msgid "MySql database design and optimization"
+msgstr "Conception et optimisation de bases de données MySql"
+
+#: cv/templates/cv/cv.html:178
+msgid "Ajax development"
+msgstr "Développement Ajax"
+
+#: cv/templates/cv/cv.html:179
+msgid "Development of game servers in Php"
+msgstr "Développement de serveurs de jeu en Php"
+
+#: cv/templates/cv/cv.html:180
+msgid "General development on the Prizee.com website"
+msgstr "Développement général sur le site Prizee.com"
+
+#: cv/templates/cv/cv.html:181
+msgid "Setting up a dynamic graph system in Java"
+msgstr "Mise en place d'un système de graphes dynamiques en Java"
+
+#: cv/templates/cv/cv.html:187
+msgid "System Administrator / Java Developer"
+msgstr "Administrateur système / Développeur Java"
+
+#: cv/templates/cv/cv.html:189
+#, fuzzy
+#| msgid "Interests"
+msgid "Intership"
+msgstr "Intérêts"
+
+#: cv/templates/cv/cv.html:192
+msgid ""
+"Design and implementation of a shared agenda / messaging management "
+"application in Java J2EE"
+msgstr "Conception et réalisation d'une application de gestion d'agenda partagé / messagerie en Java J2EE"
+
+#: cv/templates/cv/cv.html:193
+msgid "Administration Windows 2008 server edition"
+msgstr "Administration Windows 2008 server edition"
+
+#: cv/templates/cv/cv.html:194
+msgid "Managing a remote application via Terminal Server"
+msgstr "Gestion d'une application distante via Terminal Server"
+
 #: portfolio/templates/portfolio/base.html:50
 msgid "I'm a passionate <span>backend developer</span> from Montreal"
 msgstr "<span>Développeur backend</span> passionné vivant à Montréal"
@@ -251,10 +548,6 @@ msgstr "<span>Développeur backend</span> passionné vivant à Montréal"
 #: portfolio/templates/portfolio/base.html:57
 msgid "Home"
 msgstr ""
-
-#: portfolio/templates/portfolio/base.html:59
-msgid "Resume"
-msgstr "CV"
 
 #: portfolio/templates/portfolio/base.html:61
 msgid "Portfolio"
@@ -264,10 +557,14 @@ msgstr "Portfolio"
 msgid "Contact"
 msgstr "Contact"
 
-#: website/settings.py:126
+#: website/settings.py:132
 msgid "English"
 msgstr ""
 
-#: website/settings.py:127
+#: website/settings.py:133
 msgid "French"
 msgstr ""
+
+#: portfolio/templates/portfolio/portfolio.html:14
+msgid "My Works"
+msgstr "Mes Réalisations"
