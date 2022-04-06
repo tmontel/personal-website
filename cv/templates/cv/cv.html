@@ -1,0 +1,152 @@
+{% extends "portfolio/base.html" %}
+
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+     <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Resume</h2>
+        <p>Check My Resume</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title">Sumary</h3>
+          <div class="resume-item pb-0">
+            <h4>Thibault Montel</h4>
+            <p><em>{% trans "Innovative, time-conscious back-end developer with over 15 years of experience designing and developing user-centric software from initial concept to final, polished deliverable." %}.</em></p>
+            <p>
+            <ul>
+              <li>Saint-Bruno de Montarville, QC</li>
+              <li>(438) 885-1660</li>
+              <li>thibault.montel@gmail.com</li>
+            </ul>
+            </p>
+          </div>
+          <h3 class="resume-title">Certifications</h3>
+          <div class="resume-item">
+            <h4><a href="https://www.credly.com/badges/f25b0300-94b9-42a9-a0c7-979559807e35/public_url" target="_blank">PCAP – Certified Associate in Python Progamming</a></h4>
+            <h5>2022</h5>
+            <p><em>Python Institute</em></p>
+          </div>
+          <div class="resume-item">
+            <h4><a href="https://www.credly.com/badges/6d5bc6a6-da64-4deb-85f9-64e7d02586d7/public_url" target="_blank">PCEP – Certified Entry-Level Python Programmer</a></h4>
+            <h5>2022</h5>
+            <p><em>Python Institute</em></p>
+          </div>
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4>Informatique</h4>
+            <h5>2006 - 2007</h5>
+            <p><em>EPITECH - Le Kremlin Bicètre, France</em></p>
+          </div>
+          <div class="resume-item">
+            <h4>Licence Systèmes Informatiques et Logiciels, Développement logiciel</h4>
+            <h5>2005 - 2006</h5>
+            <p><em>Université d'Auvergne - Aurillac, France</em></p>
+          </div>
+          <div class="resume-item">
+            <h4>B.T.S. IRIS, Développement Logiciel et Réseaux, Développement Logiciel</h4>
+            <h5>2003 - 2005</h5>
+            <p><em>Université d'Auvergne - Aurillac, France</em></p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="resume-title">Professional Experience</h3>
+          <div class="resume-item">
+            <h4>Lead Développeur Backend sur SAQ.com</h4>
+            <h5>2018 - Present</h5>
+            <p><em>Valtech / Absolunet, Montreal, QC </em></p>
+            <p>
+            <ul>
+              <li>Architecture, mise en place, maintenance et évolutions du site SAQ.com</li>
+              <li>System Integration, Rest API, JWT Token</li>
+              <li>Middleware, Messaging queue</li>
+              <li>Rabbit MQ, Artemis Active MQ- Azure Storage</li>
+              <li>Payment system management, Fraud detection</li>
+              <li>Fastly, Varnish, VCL Snippet and Redis</li>
+              <li>MySQL</li>
+              <li>Elastic search, Logstash- SAML Authentication</li>
+              <li>Unit testing</li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Lead Développeur Backend</h4>
+            <h5>2016 - 2018</h5>
+            <p><em>Valtech / Absolunet, Montreal, QC </em></p>
+            <p>
+            <ul>
+              <li>Développement de sites e-commerce Magento 1 et 2.</li>
+              <li>Conception, développement et maintient des plateformes e-commerce</li>
+              <li>Analyse Fonctionnelle</li>
+              <li>Conception de bases de données</li>
+              <li>Support technique utilisateurs</li>
+              <li>Rédaction de documentation</li>
+              <li>Customisations / Évolutions</li>
+              <li>Intégations systèmes</li>
+              <li>Monitoring</li>
+              <li>Optimisation des performances- Gestion de la sécurité</li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Développeur Marketing Numérique,</h4>
+            <h5>2014 - 2016</h5>
+            <p><em>iProspect / NVI, Montréal, QC</em></p>
+            <p>
+            <ul>
+              <li>Création de scripts Google documents</li>
+              <li>Création de scripts Adwords</li>
+              <li>Bannières dynamiques DoubleClick Studio</li>
+              <li>Plan de mesure et guide d'implantation Google Analytics</li>
+              <li>Configuration Google Tag Manager et Google Analytics</li>
+              <li>Mise en place d'outils internes</li>
+              <li>Suivi et évolutions de l'ERP de la compagnie</li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Développeur Backend,</h4>
+            <h5>2010 - 2014</h5>
+            <p><em>NVI, Montréal, QC</em></p>
+            <p>
+            <ul>
+              <li>Conception, développement et maintient d'un ERP avec Zend Framework / Doctrine</li>
+              <li>Analyse Fonctionnelle</li>
+              <li>Conception de bases de données</li>
+              <li>Support technique utilisateur</li>
+              <li>Rédaction de documentation</li>
+              <li>Google Analytics</li>
+              <li>Joomla</li>
+              <li>Magento</li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Développeur Backend PHP</h4>
+            <h5>2009 - 2010</h5>
+            <p><em>Inpix, Montréal, QC</em></p>
+            <p>
+            <ul>
+              <li>Mise en place d'un programme de newletters personnalisées pour Bestbuy</li>
+              <li>Développement de divers concours pour Bestbuy et Les ailes de la mode</li>
+              <li>Développement de plugins Wordpress pour les sites de l'Opéra de Montreal, de la fondation Noel au printemps et de Sonotechnique</li>
+              <li>Développement de fan pages ainsi que de plusieurs jeux Facebook pourEduc'Alcool / Pocheville</li>
+              <li>Travaux sur l'API de Google map</li>
+              <li>Travaux sur un système d'inscription et de suivi en ligne pour des événements des représentants Telus</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Resume Section -->
+
+{% endblock %}

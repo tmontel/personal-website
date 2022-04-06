@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-05 20:14-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: blog/models.py:6
+msgid "title"
+msgstr ""
+
+#: blog/models.py:7
+msgid "teaser"
+msgstr ""
+
+#: blog/models.py:8
+msgid "description"
+msgstr ""
+
+#: contact/templates/contact/contact.html:14
+msgid "Contact Me"
+msgstr "Contactez Moi"
+
+#: contact/templates/contact/contact.html:22
+msgid "My Address"
+msgstr "Mon Adresse"
+
+#: contact/templates/contact/contact.html:30
+msgid "Social Profiles"
+msgstr "Réseaux Sociaux"
+
+#: contact/templates/contact/contact.html:43
+#, fuzzy
+#| msgid "Email"
+msgid "Email Me"
+msgstr "Courriel"
+
+#: contact/templates/contact/contact.html:50
+msgid "Call Me"
+msgstr "Appelez Moi"
+
+#: contact/templates/contact/contact.html:59
+msgid "Your Name"
+msgstr "Votre Nom"
+
+#: contact/templates/contact/contact.html:62
+#, fuzzy
+#| msgid "Email"
+msgid "Your Email"
+msgstr "Courriel"
+
+#: contact/templates/contact/contact.html:66
+msgid "Subject"
+msgstr "Sujet"
+
+#: contact/templates/contact/contact.html:69
+msgid "Message"
+msgstr "Message"
+
+#: contact/templates/contact/contact.html:72
+msgid "Loading"
+msgstr "Chargement en cours"
+
+#: contact/templates/contact/contact.html:74
+msgid "Your message has been sent. Thank you!"
+msgstr "Votre message a été envoyé. Merci! "
+
+#: contact/templates/contact/contact.html:76
+msgid "Send Message"
+msgstr "Envoyer le Message"
+
+#: cv/templates/cv/about.html:15 portfolio/templates/portfolio/base.html:58
+msgid "About"
+msgstr "A Propos"
+
+#: cv/templates/cv/about.html:16
+msgid "Learn more about me"
+msgstr "En savoir plus sur moi"
+
+#: cv/templates/cv/about.html:24
+msgid "Senior back-end developer"
+msgstr "Développeur back-end sénior"
+
+#: cv/templates/cv/about.html:26
+msgid ""
+"Holder of PCEP and PCAP Python certifications. On the way to mastering the "
+"Python language, the Django framework and Flask."
+msgstr ""
+"Titulaire des certifications Python PCEP et PCAP. En route vers la maitrise "
+"du langage Python, du framework Django et de Flask. "
+
+#: cv/templates/cv/about.html:31
+msgid "Birthday"
+msgstr "Date de naissance "
+
+#: cv/templates/cv/about.html:32
+msgid "Website"
+msgstr "Site web "
+
+#: cv/templates/cv/about.html:33
+msgid "Phone"
+msgstr "Téléphone "
+
+#: cv/templates/cv/about.html:34
+msgid "City"
+msgstr "Ville "
+
+#: cv/templates/cv/about.html:39
+msgid "Age"
+msgstr "Age "
+
+#: cv/templates/cv/about.html:40
+msgid "Degree"
+msgstr "Niveau d'étude "
+
+#: cv/templates/cv/about.html:40
+msgid "Bachelor"
+msgstr "Baccalauréat"
+
+#: cv/templates/cv/about.html:41
+msgid "Email"
+msgstr "Courriel"
+
+#: cv/templates/cv/about.html:42
+msgid "Freelance"
+msgstr "Pigiste"
+
+#: cv/templates/cv/about.html:42
+msgid "Unavailable"
+msgstr "Non disponible"
+
+#: cv/templates/cv/about.html:47
+msgid ""
+"Specialist in new technologies and their integration into the daily lives of "
+"users, I have been working for 15 years in the design and production of "
+"applications, in particular in the implementation of e-commerce solutions, a "
+"field in which I have been working for a decade."
+msgstr ""
+"Spécialiste des nouvelles technologies et de leur intégration dans le "
+"quotidien des usagers, je travaille depuis 15 ans dans la conception et la "
+"réalisation d'applications, notamment dans la mise en place de solution e-"
+"commerce, domaine dans lequel j'oeuvre désormais depuis une dizaine d'années."
+
+#: cv/templates/cv/about.html:49
+msgid ""
+"My field of expertise extends from customer contact, to the definition of "
+"the solution architecture, to the delivery of a quality product. I also have "
+"a strong commitment to the opportunities for constant improvement in the "
+"projects I work on."
+msgstr ""
+"Mon champ d'expertise s'étend du contact client, à la définition de "
+"l'architecture de solution, jusqu’à la livraison d'un produit de qualité. "
+"J'ai également un fort engagement envers les possibilités d'amélioration "
+"constante des projets sur lesquels je travaille."
+
+#: cv/templates/cv/about.html:51
+msgid ""
+"I have been interested in Big Data and Machine Learning for some time, which "
+"is why I recently added mastery of the python language to my skill set."
+msgstr ""
+"Je m'interesse depuis quelque temps au Big Data et au Machine Learning, "
+"c'est pourquoi, j'ai ajouté récemment la maitrise du langage python à ma "
+"palette de compétence."
+
+#: cv/templates/cv/about.html:67
+msgid "Years of Seniority"
+msgstr ""
+
+#: cv/templates/cv/about.html:75
+msgid "Python Certifications"
+msgstr ""
+
+#: cv/templates/cv/about.html:83
+msgid "Years SAQ Team leader"
+msgstr ""
+
+#: cv/templates/cv/about.html:103
+msgid "Skills"
+msgstr "Compétences"
+
+#: cv/templates/cv/about.html:166
+msgid "Interests"
+msgstr "Intérêts"
+
+#: cv/templates/cv/about.html:173
+msgid "E-commerce"
+msgstr ""
+
+#: cv/templates/cv/about.html:179
+msgid "Data science"
+msgstr ""
+
+#: cv/templates/cv/about.html:185
+msgid "Agility"
+msgstr ""
+
+#: cv/templates/cv/about.html:197
+msgid "Big data"
+msgstr ""
+
+#: cv/templates/cv/about.html:221
+msgid "Docker"
+msgstr ""
+
+#: cv/templates/cv/about.html:250
+msgid "Testimonials"
+msgstr "Témoignages"
+
+#: cv/templates/cv/about.html:260
+msgid ""
+"I had the chance to work with Thibault on a project with many challenges. "
+"His sense of logic and his positive attitude often gave us the strength to "
+"face certain aspects of this project."
+msgstr ""
+
+#: cv/templates/cv/about.html:273
+msgid ""
+"I worked with Thibault for more than 5 years and I can say that he was of "
+"irreproachable loyalty and an asset on many levels. His great diversity in "
+"terms of expertise has allowed him to play several roles in the company. "
+"Very autonomous and always positive, it's very pleasant to work with him!"
+msgstr ""
+
+#: cv/templates/cv/cv.html:22
+msgid ""
+"Innovative, time-conscious back-end developer with over 15 years of "
+"experience designing and developing user-centric software from initial "
+"concept to final, polished deliverable."
+msgstr ""
+"Développeur back-end innovant et soucieux des délais avec plus de 15 ans "
+"d'expérience dans la conception et le développement de logiciels centrés sur "
+"l'utilisateur, du concept initial au livrable final et soigné."
+
+#: portfolio/templates/portfolio/base.html:50
+msgid "I'm a passionate <span>backend developer</span> from Montreal"
+msgstr "<span>Développeur backend</span> passionné vivant à Montréal"
+
+#: portfolio/templates/portfolio/base.html:57
+msgid "Home"
+msgstr ""
+
+#: portfolio/templates/portfolio/base.html:59
+msgid "Resume"
+msgstr "CV"
+
+#: portfolio/templates/portfolio/base.html:61
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: portfolio/templates/portfolio/base.html:62
+msgid "Contact"
+msgstr "Contact"
+
+#: website/settings.py:126
+msgid "English"
+msgstr ""
+
+#: website/settings.py:127
+msgid "French"
+msgstr ""
